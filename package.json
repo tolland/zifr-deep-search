@@ -1,6 +1,5 @@
 {
   "name": "@tolland/zifr-deep-search",
-  "private": true,
   "version": "1.0.0",
   "description": "deep search for zifr extension. This is a port of the deep search functions from the xIFr extension to typescript with some additions such as elementFromPoint.",
   "main": "index.js",
