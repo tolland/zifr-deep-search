@@ -1,0 +1,29 @@
+// tsconfig.base.json
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "useDefineForClassFields": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "baseUrl": "src",
+    // Default: The longest common path of all non-declaration input files.
+    //"rootDir": "src",
+    "noEmit": false,
+    "paths": {
+      "@deep_search/*": [
+        "deep_search/*"
+      ],
+      "@dom_utils/*": [
+        "utils_dom/*"
+      ]
+    }
+  }
+}
