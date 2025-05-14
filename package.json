@@ -1,6 +1,6 @@
 {
   "name": "@tolland/zifr-deep-search",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "deep search for zifr extension. This is a port of the deep search functions from the xIFr extension to typescript with some additions such as elementFromPoint.",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+  },
+  "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.1",
